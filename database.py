@@ -1,5 +1,5 @@
 from abc import ABC, abstractclassmethod
-from .query_builder import MongoQueryBuilder
+from query_builder import MongoQueryBuilder
 import pymongo
 import urllib.parse
 import ssl

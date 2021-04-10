@@ -11,8 +11,8 @@ import pprint
 # parentdir = os.path.dirname(currentdir)
 # sys.path.append(parentdir)
 
-from .database import InventoryOperator, CustomerOperator
-from .models import *
+from database import InventoryOperator, CustomerOperator
+from models import *
 
 
 api = fastapi.FastAPI()
